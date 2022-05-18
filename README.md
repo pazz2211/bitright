@@ -7,10 +7,12 @@ github: https://github.com/liuyanqi/bitright
 BitRights is a proof of concept project for blockchain based digital copyright protection. Users can upload media files that they create and permanently claim ownership of their work. Anyone on the web can view the published works and verify that the author is correct. Further, it is not possible to upload a work that is too similar to one that has already been published. Audio, image, and text files are currently supported.
 
 # Prerequisites
-** Run the commands below to install prerequisites
+**1st Run: Run the commands below to install prerequisites** 
+```
 sudo apt-get update
 sudo apt install python-pip virtualenv unzip python3 cmake -y
 sudo apt-get install -y libchromaprint-tools
+```
 
 # Installing
 **1st Run: Run the following commands from inside the project directory. The installation is going to take a few minutes to install all related packages in the virtual environment** 
